@@ -1,0 +1,15 @@
+<view>
+    <view class="tabBar">
+    <view id="tapTest" data-hi="WeChat" bindtap="tapName">Click me!</view>
+        <i-tab-bar current="{{ current }}" bindchange="handleChange" >
+            <block wx:for="{{tabList}}" wx:key="key" wx:for-item="tab">
+                <i-tab-bar-item  
+                    key="{{tab.key}}" 
+                    icon="{{tab.icon}}" 
+                    title="{{tab.title}}"
+                    current-icon="{{tab.icon}}">
+                </i-tab-bar-item>    
+            </block>
+        </i-tab-bar>
+    </view>
+</view>

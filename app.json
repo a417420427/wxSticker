@@ -1,0 +1,34 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/search/search",
+    "pages/collection/collection"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#e53927",
+    "navigationBarTitleText": "表情库",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "custom": true,
+    "color": "#b7b7b7",
+    "backgroundColor": "#fff",
+    "selectedColor": "#e53927",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "主页"
+      },
+      {
+        "pagePath": "pages/search/search",
+        "text": "搜索"
+      },
+      {
+        "pagePath": "pages/collection/collection",
+        "text": "搜藏"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
